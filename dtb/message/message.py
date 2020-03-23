@@ -14,7 +14,7 @@ class AtableMessage(Message):
             if isAtAll is not None:
                 self.at['isAtAll'] = isAtAll
 
-
+@Bot.register('text')
 @Bot.register('test')
 class TextMessage(AtableMessage):
     '''
